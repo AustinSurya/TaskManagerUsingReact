@@ -1,6 +1,6 @@
 import { FaTrash, FaCheckCircle } from "react-icons/fa";
 
-function TaskCard({ task, deleteTask, toggleComplete }) {
+function Taskcard({ task, deleteTask, toggleComplete }) {
 
   return (
     <div className={`task-card ${task.completed ? "completed" : ""}`}>
@@ -38,4 +38,4 @@ function TaskCard({ task, deleteTask, toggleComplete }) {
   );
 }
 
-export default TaskCard;
+export default Taskcard;
