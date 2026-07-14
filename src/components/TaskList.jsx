@@ -1,4 +1,4 @@
-import TaskCard from "./TaskCard";
+import Taskcard from "./Taskcard";
 
 function TaskList({ tasks, deleteTask, toggleComplete }) {
 
@@ -14,7 +14,7 @@ function TaskList({ tasks, deleteTask, toggleComplete }) {
     <div className="task-list">
 
       {tasks.map((task) => (
-        <TaskCard
+        <Taskcard
           key={task.id}
           task={task}
           deleteTask={deleteTask}
